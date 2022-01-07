@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald@700&family=Oxygen+Mono&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    color: #6EFAFB;
+}
+
+.header-font {
+    font-family: 'Oswald', sans-serif;
+    color: #6EFAFB;
+    text-decoration: none;
+}
+
+.body-font {
+    font-family: 'Oxygen Mono', monospace;
+}
+
+.border {
+    border-color: white;
+    border-style: solid;
+}
+
+.main-logo-link { 
+    width: fit-content;
+}
+
+
+
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
