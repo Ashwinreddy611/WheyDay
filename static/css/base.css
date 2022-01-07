@@ -5,13 +5,13 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: white;
     color: #6EFAFB;
 }
 
 .header-font {
     font-family: 'Oswald', sans-serif;
-    color: #6EFAFB;
+    color: #6EFAFB !important;
     text-decoration: none;
 }
 
