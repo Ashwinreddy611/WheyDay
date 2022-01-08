@@ -4,11 +4,6 @@ html {
     height: 100%;
 }
 
-body {
-    background-color: white;
-    color: #6EFAFB;
-}
-
 .header-font {
     font-family: 'Oswald', sans-serif;
     color: #6EFAFB !important;
@@ -17,6 +12,12 @@ body {
 
 .body-font {
     font-family: 'Oxygen Mono', monospace;
+    color: black !important;
+}
+
+.body-font-alt {
+    font-family: 'Oxygen Mono', monospace;
+    color: white !important;
 }
 
 .border {
@@ -28,8 +29,22 @@ body {
     width: fit-content;
 }
 
+.page-margin {
+    margin-top: 200px;
+}
 
+.carousel img {
+    max-height: 900px;
+    margin: 0 auto;
+}
 
+.carousel-caption {
+    padding-bottom: 7rem;
+}
+
+.btn-info {
+    background-color:#6EFAFB;
+}
 
 /* from Bulma */
 .icon {
@@ -38,4 +53,18 @@ body {
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
+}
+
+
+@media (max-width: 991px) {
+
+    
+    .carousel-caption{
+        position: absolute;
+        font-size: 10px;
+        padding-bottom: 3rem;
+    }
+    .carousel-caption a{
+        font-size: 10px;
+    }
 }
