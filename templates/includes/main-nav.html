@@ -19,11 +19,11 @@
                 Protein Powders
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Whey</a>
-                <a href="" class="dropdown-item">Casein</a>
-                <a href="" class="dropdown-item">Mass Gainer</a>
-                <a href="" class="dropdown-item">Vegan</a>
-                <a href="" class="dropdown-item">All Powders</a>
+                <a href="{% url 'products' %}?category=whey" class="dropdown-item">Whey</a>
+                <a href="{% url 'products' %}?category=casein" class="dropdown-item">Casein</a>
+                <a href="{% url 'products' %}?category=mass_gainer" class="dropdown-item">Mass Gainer</a>
+                <a href="{% url 'products' %}?category=vegan" class="dropdown-item">Vegan</a>
+                <a href="{% url 'products' %}?category=whey,casein,mass_gainer,vegan" class="dropdown-item">All Powders</a>
             </div>
         </li>
 
@@ -33,9 +33,9 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Lifting Gear</a>
-                <a href="" class="dropdown-item">Recovery & Healing</a>
-                <a href="" class="dropdown-item">All Accessories</a>
+                <a href="{% url 'products' %}?category=lifting_gear" class="dropdown-item">Lifting Gear</a>
+                <a href="{% url 'products' %}?category=recovery_and_healing" class="dropdown-item">Recovery & Healing</a>
+                <a href="{% url 'products' %}?category=lifting_gear,recovery_and_healing" class="dropdown-item">All Accessories</a>
             </div>
         </li>
 
@@ -45,10 +45,10 @@
                 Nutrition Plans
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Regular Plans</a>
-                <a href="" class="dropdown-item">Vegetarian Plans</a>
-                <a href="" class="dropdown-item">Vegan Plans</a>
-                <a href="" class="dropdown-item">All Plans</a>
+                <a href="{% url 'products' %}?category=regular_plans" class="dropdown-item">Regular Plans</a>
+                <a href="{% url 'products' %}?category=vegetarian_plans" class="dropdown-item">Vegetarian Plans</a>
+                <a href="{% url 'products' %}?category=vegan_plans" class="dropdown-item">Vegan Plans</a>
+                <a href="{% url 'products' %}?category=regular_plans,vegetarian_plans,vegan_plans" class="dropdown-item">All Plans</a>
             </div>
         </li>
     </ul>
