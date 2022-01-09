@@ -46,6 +46,10 @@ html {
     background-color:#6EFAFB;
 }
 
+.border-black {
+    border: 1px solid black !important;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
