@@ -59,6 +59,14 @@ html {
     width: 1.5rem;
 }
 
+.socials li a i {
+    width: 40px;
+    height: 40px;
+    font-size: 50px;
+    margin: 20px;
+    color: #6EFAFB;
+}
+
 
 @media (max-width: 991px) {
 
@@ -73,5 +81,8 @@ html {
     }
     .header-container {
         padding-top: 164px;
+    }
+    .socials li a i {
+        font-size: 35px;
     }
 }
