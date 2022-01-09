@@ -67,4 +67,7 @@ html {
     .carousel-caption a{
         font-size: 10px;
     }
+    .header-container {
+        padding-top: 164px;
+    }
 }
