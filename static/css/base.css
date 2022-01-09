@@ -67,6 +67,17 @@ html {
     color: #6EFAFB;
 }
 
+.btt-button {
+    height: 62px;
+    width: 62px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
 
 @media (max-width: 991px) {
 
