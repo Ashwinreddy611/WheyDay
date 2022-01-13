@@ -51,25 +51,11 @@
                     <form class="form" action="{%url 'add_to_bag' product.id%}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">
-                            {% with product.has_sizes as s %}
-                            {% if s %}
-                                <div class="col-12">
-                                    <p><strong>Size:</strong></p>
-                                    <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
-                                        <option value="xs">XS</option>
-                                        <option value="s">S</option>
-                                        <option value="m" selected>M</option>
-                                        <option value="l">L</option>
-                                        <option value="xl">XL</option>
-                                    </select>
-                                </div>
-                            {% endif %}
-                            {% endwith %}
                             {% with product.has_flavours as f %}
                             {% if f %}
                                 <div class="col-12">
                                     <p><strong>Flavour:</strong></p>
-                                    <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
+                                    <select class="form-control rounded-0 w-50" name="product_flavour" id='id_product_flavour'>
                                         <option value="Unflavoured">Unflavoured</option>
                                         <option value="Chocolate">Chocolate</option>
                                         <option value="Strawberry" selected>Strawberry</option>
@@ -77,7 +63,7 @@
                                     </select>
                                 </div>
                             {% endif %}
-                            {% endwith %}
+                            
                             <div class="col-12">
                                 <p class="mt-3"><strong>Quantity:</strong></p>
                                 <div class="form-group w-50">
@@ -97,7 +83,7 @@
                                 <input type="submit" class="btn btn-info body-font mt-5" value="Add to Bag">
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                            
+                            {% endwith %}
                         </div>
                     </form>
                 </div>
