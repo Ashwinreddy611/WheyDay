@@ -23,7 +23,7 @@ WheyDay is a modern eCommerce store providing fitness and wellness lovers with a
 
 ### Colours, icons and images
 * The colours palette used for the site is a trio of a cold cyan, black and white. The reason being is thee colours lean into the goal of the site being sleek and clean and the arrangement used for these colours does so in a very minimalist manner. 
-* The icons chose have come from the site line icons. The reasoning behind this choice is because the style of the icon is very smooth with the smooth curves of the icon that I feel also suppply the same minimalist and sleek look that the font is providing. The icons, colours and fonts are working synergistically.
+* The icons chose have come from the site font awesome icons. The reasoning behind this choice is because the style of the icon is very smooth with the smooth curves of the icon that I feel also suppply the same minimalist and sleek look that the font is providing. The icons, colours and fonts are working synergistically.
 * The images provided for products have come from the google search for said image and all other images on the site come from unsplash.com.
 
 ## Wireframes 
