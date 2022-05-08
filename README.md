@@ -31,6 +31,12 @@ Wireframes for this site can be found [here](media/wireframes.md)
 ## Deployment 
 
 ## Technologies Used 
+### Languages 
+* In terms of languages used the main markup was down via HTML5 with CSS3 styling all the individual pages. Javascript was used in order to provide the frontend logic to the website with python being used to provide the backend logic to the website.
+
+### Frameworks
+* Django was used for the devleopment of the site and provides the site owner with the administrative abilities.
+* Bootstrap was used to provide the frontend with structure.
 
 ## Testing 
 
