@@ -11,21 +11,21 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/static/wheyday/football.jpg" class="w-100" alt="Football pitch at night Image">
+                <img src="{% static 'wheyday/football.jpg' %}" class="w-100" alt="Football pitch at night Image">
                 <div class="carousel-caption d-block body-font-alt">
                     <p>There's a story behind every great idea, let us tell you ours!</p>
                     <a class="btn btn-info body-font" href="#about-us" role="button">About Us</a>
                 </div>
             </div>
             <div class="carousel-item ">
-                <img src="/static/wheyday/refuel.jpg" class="w-100" alt="Man rehydrating in gym Image">
+                <img src="{% static 'wheyday/refuel.jpg' %}" class="w-100" alt="Man rehydrating in gym Image">
                 <div class="carousel-caption d-block body-font-alt ">
                     <p>Here at WheyDay we have a variety of products to suit your fitness needs</p>
                     <a class="btn btn-info body-font" href='{% url "products" %}' role='button'>Shop Now</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/static/wheyday/running.jpg" class="w-100" alt="Group of people running image">
+                <img src="{% static 'wheyday/running.jpg' %}" class="w-100" alt="Group of people running image">
                 <div class="carousel-caption d-block body-font-alt ">
                     <p>Whether it's feedback or a query our customer service would love to hear from you</p>
                     <a class="btn btn-info body-font" href='#' role='button'>Contact Us</a>
