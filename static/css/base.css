@@ -4,8 +4,6 @@ html {
     height: 100%;
 }
 
-
-
 .header-font {
     font-family: 'Oswald', sans-serif;
     color: #6EFAFB !important;
@@ -46,6 +44,12 @@ html {
 
 .btn-info {
     background-color:#6EFAFB;
+}
+
+.embedded-media {
+    width: 100%;
+    height: 600px;
+    
 }
 
 
