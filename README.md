@@ -34,15 +34,29 @@ The Deployment steps taken can be found [here](DEPLOYMENT.md)
 ### Languages 
 * In terms of languages used the main markup was down via HTML5 with CSS3 styling all the individual pages. Javascript was used in order to provide the frontend logic to the website with python being used to provide the backend logic to the website.
 
+
 ### Frameworks
-* Django was used for the devleopment of the site and provides the site owner with the administrative abilities.
+* Django was used for the devleopment of the site and provides the site owner with the administrative abilities. Within it, Django AllAuth was used for user authentication, Django countries was used to select countries for the order form and django crispy forms was used to style all of the sites form elements. 
 * Bootstrap was used to provide the frontend with structure.
+* Stripe was used to handle the payment functionality of the site. 
+
+### Services 
+* Heroku was used to host the sit 
+* AWS was used to store media and static files 
+* Gunicorn allowed me to deploy to Heroku
+* Gitpod was the preferred IDE when creating the project. 
+* Github hosted the code of the project.
 
 ## Testing 
 The testing for the site can be found [here](TESTING.md)
 ## Known Bugs 
 
 ## Credits and Acknowledgments
+* Boutique Ado walkthrough project provided the guidance and foundation knowledge to starte the project.
+* Images were taken from Unsplash
+* Slack was very useful in general queries i had. 
+* My mentor Chris Quinn was very helpful throughout the whole project with his guidance. 
+* The tutors at code institue were also very helpful and patient with me on all the occasions I went to them for help.
 
 
 
