@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'test')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 #'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['wheyday.herokuapp.com', 'localhost']
@@ -127,17 +127,17 @@ WSGI_APPLICATION = 'wheyday.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-if 'DATABASE_URL' in os.environ:
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-    }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
+# if 'DATABASE_URL' in os.environ:
+DATABASES = {
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+}
+# else:
+#    DATABASES = {
+#        'default': {
+#            'ENGINE': 'django.db.backends.sqlite3',
+#            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#        }
+#    }
 
 #DATABASES = {
 #   'default': dj_database_url.parse('postgres://zleqeykhrgewla:228b73f05cb4f0d3fe432aa241a6b7aaafdc59ccda7544b9b89ae9fe57b87ed6@ec2-34-242-89-204.eu-west-1.compute.amazonaws.com:5432/deh0qc5s491cob')
