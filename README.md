@@ -29,7 +29,7 @@ WheyDay is a modern eCommerce store providing fitness and wellness lovers with a
 ## Wireframes 
 Wireframes for this site can be found [here](media/wireframes.md)
 ## Deployment 
-
+The Deployment steps taken can be found [here](DEPLOYMENT.md)
 ## Technologies Used 
 ### Languages 
 * In terms of languages used the main markup was down via HTML5 with CSS3 styling all the individual pages. Javascript was used in order to provide the frontend logic to the website with python being used to provide the backend logic to the website.
@@ -39,7 +39,7 @@ Wireframes for this site can be found [here](media/wireframes.md)
 * Bootstrap was used to provide the frontend with structure.
 
 ## Testing 
-
+The testing for the site can be found [here](TESTING.md)
 ## Known Bugs 
 
 ## Credits and Acknowledgments

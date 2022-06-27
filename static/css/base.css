@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald@700&family=Oxygen+Mono&display=swap');
 
-html {
+body {
     height: 100%;
+    background-color: black;
 }
+
 
 .header-font {
     font-family: 'Oswald', sans-serif;
@@ -55,6 +57,19 @@ html {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.border-teal {
+    border: 1px solid #6EFAFB !important;
+}
+
+#footer {
+    margin:0;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    height: auto;
 }
 
 /* from Bulma */
@@ -114,6 +129,7 @@ html {
     top: -10px;
     right: 36px;
 }
+
 
 /* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
